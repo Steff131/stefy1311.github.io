@@ -7,6 +7,11 @@ let tabLinkArray = Array.from(tabLink);
 let tabContents = document.querySelectorAll(".tab-contents");
 let tabContentsArray = Array.from(tabContents);
 
+const nav = document.querySelector('nav');
+    window.addEventListener('scroll', function(){
+        nav.classList.toggle('active', window.scrollY > 0)
+    })
+
 tabLinkArray.forEach ((ele) => {
     ele.addEventListener ("click", (e) => {
         // Removing The Active Class From All The Tab Links

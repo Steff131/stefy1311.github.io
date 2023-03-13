@@ -202,18 +202,18 @@ ul li {
 /*-----------------------------Fin sección Sobre MI------------------------*/
 
 /* -------------------------Armado sección Servicios------------------------- */
-#servicios .servicio-title {
+#servicio .servicio-title {
     text-align: center;
     margin-bottom: 50px;
 }
 
-#servicios .servicio-list {
+#servicio .servicio-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
 }
 
-#servicios .servicio-list div {
+#servicio .servicio-list div {
     background-color: #262626;
     color: var(--txt-color);
     font-size: 13px;
@@ -224,29 +224,29 @@ ul li {
     transition: .4s linear;
 }
 
-#servicios .servicio-list div i {
+#servicio .servicio-list div i {
     font-size: 45px;
     margin-bottom: 25px;
 }
 
-#servicios .servicio-list div h2 {
+#servicio .servicio-list div h2 {
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
 
-#servicios .servicio-list div p {
+#servicio .servicio-list div p {
     line-height: 24px;
     margin-bottom: 20px;
 }
 
-#servicios .servicio-list div a {
+#servicio .servicio-list div a {
     color: var(--white-color);
     display: inline-block;
 }
 
-#servicios .servicio-list div:hover {
+#servicio .servicio-list div:hover {
     background-color: var(--main-color);
     transform: translateY(-10px);
 }
